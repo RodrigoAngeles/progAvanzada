@@ -4,6 +4,7 @@
 # El largo y ancho debe ser introducido con punto flotante (decimal). 
 # Incluya las unidades (metros) en su mensaje de entrada y salida.
 
+
 largo = float(input ('inserta el largo de la habitacion: '))
 ancho = float(input ('inserta el ancho de la habitacion: '))
 
