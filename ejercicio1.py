@@ -1,3 +1,6 @@
+# Ejercicio 1
+# Redactar una carta postal.
+
 print('Elena Gonlazes')
 print('Directora General')
 print('TESH')
