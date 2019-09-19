@@ -5,7 +5,6 @@
 # Your program should continue by computing and displaying the refund that will be received for returning those containers. 
 # Format the output so that it includes a dollar sign and always displays exactly two decimal places.
 
-
 menos = float(input('¿cuantos envases de 1 litro o menos tienes?'))
 mas = float(input('¿cuantos envases de mas de 1 litro tienes?'))
 
