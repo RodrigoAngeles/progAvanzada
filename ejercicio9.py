@@ -1,9 +1,9 @@
 # Ejercicio 9
 # Usted acaba de abrir una nueva cuenta de ahorros con el cual gana el 4% de interés por año.
-# el interés que usted genera es pagado al final del año y es agregado al balance de la cuenta de banco.
+# El interés que usted genera es pagado al final del año y es agregado al balance de la cuenta de banco.
 # Escriba un programa que comience por leer la cantidad de dinero depositada en la cuenta (el usuario introduce esa cantidad).
-# el programa debe calcular y mostrar la cantidad de dinero en la cuenta después del primer, segundo y tercer año. 
-# despliegue las cantidades de dinero redondeando a 2 decimales.
+# El programa debe calcular y mostrar la cantidad de dinero en la cuenta después del primer, segundo y tercer año. 
+# Despliegue las cantidades de dinero redondeando a 2 decimales.
 
 
 cantidad =  float(input('Cuanto dinero depocitara: '))
