@@ -1,7 +1,8 @@
+# Ejercicio 6
 # hacer un programa en el que el usuario introduzca el nombre de la comida que ordeno en un restaurante y su precio. 
-#Despues su programa debe calcular el subtotal, el iva y la propina, de toda la cuenta. 
-#la salida del programa deve parecerse a un tiquet de restrurante. use un iva del 16% y una propina del 15% del subtotal.
-#los valores nujmericos deven tener 2 decimales
+# Despues su programa debe calcular el subtotal, el iva y la propina, de toda la cuenta. 
+# la salida del programa deve parecerse a un tiquet de restrurante. use un iva del 16% y una propina del 15% del subtotal.
+# los valores nujmericos deven tener 2 decimales
 
 comida1 = input ('introduzca el nombre de la comida: ')
 valor1 = float(input ('Intruduzca el valor de la comida: '))
