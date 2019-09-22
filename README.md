@@ -1,24 +1,24 @@
 # Programación Avanzada
 ## Introducción
 
-###¿Qué es Python?
+### ¿Qué es Python?
 Es un lenguaje de programación creado por Guido Von Rossum, a principios de los años 19990. El lenguaje favorece una sintaxis muy limpia, ya que favorece un código legible, se trata de un lenguaje interpretador o de script, con tipado dinámico, fuertemente tipado, multiplataforma y orientado a objetos.
 
-###El lenguaje interpretador o de script
+### El lenguaje interpretador o de script
 Es aquel que se ejecuta utilizando un programa intermedio llamado interprete, en lugar de copilar el código el lenguaje máquina que pueda comprender y ejecutar directamente una computadora (lenguaje copilado) la ventaja de los lenguajes copilado es que su ejecución es más rápida. Sin embargo, los lenguajes interpretados son más flexibles y más portables. Python es un ejemplo de lenguaje de alto nivel como: C++, C#, PHP, Pascal y Java.
 Lenguajes de bajo nivel se refiere a los lenguajes maquina o lenguajes de ensamblador, sin embargo, los lenguajes de alto nivel siempre tienen que ser convertidos a lenguaje de bajo nivel para que pueda correr.
 El lenguaje de programación Python guarda sus archivos con la extensión .py
-###Tipado dinámico
+### Tipado dinámico
 Se refiere a que no es necesario declarar el tipo de dato que va a contener determinada variable, sino que su tipo se determina en el tiempo de ejecución según el tipo de valor al que se asigna y al tipo de esta variable se puede cambiar si se le asigna un valor de otro tipo
-###Fuertemente tipado
+### Fuertemente tipado
 No se permite tratar a una variable como si fuera de un tipo distinto al que tiene, es necesario convertir al nuevo tipo previamente, por ejemplo. Si tenemos un variable que contiene un texto (Variable de tipo cadena o string) no podemos tratarla como un número (sumar la cadena “9” + “8”) 
-###Multiplataforma
+### Multiplataforma
 El intérprete de Python está disponible en multitud de catálogos (Unix, Solaris, Linux, Dos, Windows, OS/2, Mac OS, Android) por lo que si no utilizamos librerías específicas de cada plataforma podrá correr sin grandes cambios.
-###Orientado a objetos
+### Orientado a objetos
 La orientación a objetos es un paradigma de programación en el que los conceptos del mundo real relevante para nuestro problema se trasladan a clases y objetos. La ejecución del programa consiste en una serie de interacción entre los objetos.
-###El software 
+### El software 
 Es núcleo de todas las herramientas que utilizamos hoy en día: casi todos usamos redes sociales para comunicarnos, muchas personas están conectadas a internet todo el día y la mayoría de los trabajos siempre se interactúa con una computadora para tener el trabajo hecho. Como resultado la demanda de las personas que sepan programar ha aumentado.
-###¿Por qué Python?
+### ¿Por qué Python?
 Python es el lenguaje que su sintaxis simple, clara y sencilla puede automatizar tareas como: Mover y renombrar miles de archivos y clasificarlos en folder, llenar de forma automática formatos de internet, descargar archivos o extraer formatos de páginas de internet de forma masiva, hacer que la computadora envié información al teléfono de quien la está usando, checar el email y contestar de forma automática.
 
 
