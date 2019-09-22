@@ -65,6 +65,10 @@ Para calcular los numero se hace uso de la formula (n (n + 1)) / 2
 
 [Ejercicio 7](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio7.py)
 
+## Ejercicio 8
+En este ejercicio se realiza la suma en kilogramos de 2 cereales distintos a vender, el primer cereal pesa 750gr y el segundo cereal pesa 500gr, el usuario le indita al programa cuantas cajas de cada cereal necesita, y el programa realiza la función de convertir los gr a kg, y sumando las cantidades de cada uno para obtener un total final.
+
+[Ejercicio 8](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio8.py)
 
 
 
