@@ -9,9 +9,9 @@
 # • El resultado de a a la potencia de b
 
 from math import log
-a = int(input('insete el valor de a: '))
+a = int(input('inserte el valor de a: '))
 
-b = int(input('insete el valor de b: '))
+b = int(input('inserte el valor de b: '))
 print('')
 print(a, '+', b, 'es:                  ', a+b)
 print('')
