@@ -59,6 +59,13 @@ Este ejercicio trata de realizar la suma de las ganancias de una cuenta de ahorr
 
 [Ejercicio 6](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio6.py)
 
+## Ejercicio 7
+Para este programa se realizará la función de ingresar un número positivo cualquiera, y el programa desplegará la cantidad de números enteros desde 1, indicando como resultado todos los números posibles enteros con esa cantidad.
+Para calcular los numero se hace uso de la formula (n (n + 1)) / 2
+
+[Ejercicio 7](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio7.py)
+
+
 
 
 
