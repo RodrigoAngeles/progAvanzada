@@ -75,7 +75,20 @@ Este ejercicio trata de realizar la suma de las ganancias de una cuenta de ahorr
 
 [Ejercicio 9](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio9.py)
 
+## Ejercicio 10
+Para este ejercicio se debe crear un programa que lea dos números enteros, a y b, introducidos por el usuario y el programa debe calcular lo siguiente:
+• La suma de a y b
+• La diferencia cuando a es sustraído de b
+• El producto de a y b.
+• El cociente cuando a divide a b.
+• El residuo cuando a divide a b.
+• El resultado de log (a).
+• El resultado de a, a la potencia de b.
+Para poder usar el Log es necesario llamar una librería llamada math y de ahí importar Log, esto permite al programa procesar ese cálculo.
+Esta librería se pone el principio de comenzar a realizar la programación de esta manera: 
+from math import log 
 
+[Ejercicio 10](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio10.py)
 
 
 
