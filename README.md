@@ -55,7 +55,7 @@ Para la realización de este ejercicio se hizo uso simplemente de dos multiplica
 [Ejercicio 5](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio5.py)
 
 ## Ejercicio 6
-Este ejercicio trata de realizar la suma de las ganancias de una cuenta de ahorro en la cual se hizo un solo deposito obteniendo como ganancia el 4% anual, para la realización de este programa en el año uno se obtendrá una ganancia del 4% a lo depositado, esta ganancia obtenida se suma a lo depositado, para el año dos esa cantidad resultante se obtiene el 4% para adjuntarlo a lo obtenido del año 1 y por último en el año 3 la cantidad total obtenía del año 2 se saca el 4% y se suma a lo acumulado de los años anteriores danto el total ganado en esos 3 años.
+Para este programa el usuario deberá de indicar a el programa el nombre de la comida que ordeno seguido del precio de esta, en un total de 5 comidas a pedir, El programa deberá realizar la función de calcular el subtotal, el IVA, la propina y el total a pagar, estas cantidades deberán aparecer en la pantalla como en un ticket real, poniendo en columnas separadas las cantidades que se están cobrando y finalizando con el total a pagar.
 
 [Ejercicio 6](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio6.py)
 
@@ -70,7 +70,10 @@ En este ejercicio se realiza la suma en kilogramos de 2 cereales distintos a ven
 
 [Ejercicio 8](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio8.py)
 
+## Ejercicio 9
+Este ejercicio trata de realizar la suma de las ganancias de una cuenta de ahorro en la cual se hizo un solo deposito obteniendo como ganancia el 4% anual, para la realización de este programa en el año uno se obtendrá una ganancia del 4% a lo depositado, esta ganancia obtenida se suma a lo depositado, para el año dos esa cantidad resultante se obtiene el 4% para adjuntarlo a lo obtenido del año 1 y por último en el año 3 la cantidad total obtenía del año 2 se saca el 4% y se suma a lo acumulado de los años anteriores danto el total ganado en esos 3 años.
 
+[Ejercicio 9](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio9.py)
 
 
 
