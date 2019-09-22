@@ -2,7 +2,7 @@
 ## Introducción
 
 ### ¿Qué es Python?
-Es un lenguaje de programación creado por Guido Von Rossum, a principios de los años 19990. El lenguaje favorece una sintaxis muy limpia, ya que favorece un código legible, se trata de un lenguaje interpretador o de script, con tipado dinámico, fuertemente tipado, multiplataforma y orientado a objetos.
+Es un lenguaje de programación creado por Guido Van Rossum, a principios de los años 1990. El lenguaje favorece una sintaxis muy limpia, ya que favorece un código legible, se trata de un lenguaje interpretador o de script, con tipado dinámico, fuertemente tipado, multiplataforma y orientado a objetos.
 
 ### El lenguaje interpretador o de script
 Es aquel que se ejecuta utilizando un programa intermedio llamado interprete, en lugar de copilar el código el lenguaje máquina que pueda comprender y ejecutar directamente una computadora (lenguaje copilado) la ventaja de los lenguajes copilado es que su ejecución es más rápida. Sin embargo, los lenguajes interpretados son más flexibles y más portables. Python es un ejemplo de lenguaje de alto nivel como: C++, C#, PHP, Pascal y Java.
@@ -53,6 +53,12 @@ Para la realización de este ejercicio se hizo uso de lo aprendido en el ejercic
 Para la realización de este ejercicio se hizo uso simplemente de dos multiplicaciones y una suma, en este programa se realiza el intercambio de botellas plásticas por dinero (botellas de menos de un litro equivalen a $0.10 y botellas de más de un litro equivale a $0.25), se tiene que ingresar al programa un numero de botella de menos de 1 litro y el número de botellas de más de 1 litro, al ingresar la cantidad de botellas, el programa calcula cuantas botellas se ingresan y suma los resultados dando una sola cantidad generada.
 
 [Ejercicio 5](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio5.py)
+
+## Ejercicio 6
+Este ejercicio trata de realizar la suma de las ganancias de una cuenta de ahorro en la cual se hizo un solo deposito obteniendo como ganancia el 4% anual, para la realización de este programa en el año uno se obtendrá una ganancia del 4% a lo depositado, esta ganancia obtenida se suma a lo depositado, para el año dos esa cantidad resultante se obtiene el 4% para adjuntarlo a lo obtenido del año 1 y por último en el año 3 la cantidad total obtenía del año 2 se saca el 4% y se suma a lo acumulado de los años anteriores danto el total ganado en esos 3 años.
+
+[Ejercicio 6](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio6.py)
+
 
 
 
