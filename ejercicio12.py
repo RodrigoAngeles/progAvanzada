@@ -1,15 +1,15 @@
 # Ejercicio 12
 # Distancia entre dos puntos de la tierra
 # La superficie de la tierra es curva y la distancia entre grados de longitud varia con la latitud.
-# Como resultado, encontrar la distancia entre dos puntos de la superficide de la tierra es mas complicado que usar el teorema de pitagoras.
+# Como resultado, encontrar la distancia entre dos puntos de la superficie de la tierra es más complicado que usar el teorema de Pitágoras.
 # Si (t1,g1) y (t2,g2) es la latitud y longitud de dos puntos de la superficie de la tierra.
-# La distancia entre esos puntos, a traves de la superficie de la tierra, en kilometros es:
+# La distancia entre esos puntos, a través de la superficie de la tierra, en kilómetros es:
 # distancia = 6271.01*arccos(sen(t1)*sen(t2)+cos(t1)*cos(t2)*cos(g1-g2))
 # cree un programa que le permita al usuario introducir la latitud y la longitud de dos puntos de la tierra en grados.
-# su programa debe desplegar la distancia entre esos dos puntos, en kilometros.
-# Tenga cuenta que las funciones trigonometricas en python trabajan en radianes, por lo tanto se debe convertir su valor introducido
+# su programa debe desplegar la distancia entre esos dos puntos, en kilómetros.
+# Tenga cuenta que las funciones trigonométricas en python trabajan en radianes, por lo tanto, se debe convertir su valor introducido
 # por el usuario en grados a radianes antes de utilizar la formula.
-# El modulo math contiene el comando radianes, que cambia de grados a radianes.
+# El módulo math contiene el comando radianes, que cambia de grados a radianes.
 # * todo from math
 from math import radians, cos, sin, asin, sqrt
 
