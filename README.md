@@ -103,7 +103,7 @@ distancia = 6271.01*arccos(sen(t1)*sen(t2)+cos(t1)*cos(t2)*cos(g1-g2))
 
 [Ejercicio 12](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio12.py)
 
-
+[ejercicii 5](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio6.py)
 
 
 
