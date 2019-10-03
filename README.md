@@ -139,6 +139,12 @@ El volumen de un cilindro se puede calcular multiplicando el área de su base ci
 
 [Ejercicio 18](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio18.py)
 
+# Ejercicio 19
+Escriba un programa que determine como un objeto viaja cuando golpea el piso. El usuario insertara la información de la altura desde donde el objeto se deja caer, en metros(m) dado que el objeto se deja caer desde el reposo (Velocidad inicial V0= 0 m/s). Asumiendo que la aceleración debido a la gravedad es 9.81 m/s^2 y usando la formula Vf= raiz (Vo ^2 + 2gd). 
+Calcule la velocidad final Vf usando la velocidad inicial V0 
+La aceleración = g, la distancia = d
+
+[Ejercicio 19](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio19.py)
 
 
 
