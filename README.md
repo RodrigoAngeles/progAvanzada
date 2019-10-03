@@ -108,14 +108,23 @@ Considere el software que se ejecuta en una máquina de autopago. Una tarea que 
 Escriba un programa que comience leyendo una cantidad de centavos del usuario como un entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. Los cambios deben darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada con monedas de un centavo, cinco centavos, diez centavos, cuartos, loonies y toonies.
 Una moneda de un dólar se introdujo en Canadá en 1987. Se conoce como a loonie porque una cara de la moneda tiene un bribón (un tipo de pájaro). La moneda de dos dólares, conocida como toonie, se introdujo 9 años después. Su nombre se deriva de la combinación del número dos y el nombre del loonie.
 
+[Ejercicio 13](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio13.py)
+
 ## Ejercicio 14
-Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa
+Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa.
+
+[Ejercicio 14](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio14.py)
+
 ## Ejercicio 15
 En este ejercicio, creará un programa que comienza leyendo una medida en pies del usuario. Luego, su programa debe mostrar la distancia equivalente en pulgadas, yardas y millas. Use Internet para buscar los factores de conversión necesarios si no los tiene memorizados.
+
+[Ejercicio 15](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio15.py)
 
 ## Ejercicio 16
 Escriba un programa que comience leyendo un radio, r, del usuario. El programa continuará calculando y mostrando el área de un círculo con radio r y el volumen de una esfera con radio r. Use la constante pi en el módulo matemático en sus cálculos.
 Sugerencia: El área de un círculo se calcula usando el área de fórmula = π*r^2. El volumen de una esfera se calcula usando la fórmula volumen = 4/3 * π* r^3.
+
+[Ejercicio 16](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio16.py)
 
 ## Ejercicio 17
 La cantidad de energía requerida para aumentar la temperatura de un gramo de un material en un grado Celsius es la capacidad de calor específica del material, C. La cantidad total de energía requerida para elevar m gramos de un material en ΔT grados Celsius se puede calcular usando la fórmula:
@@ -123,8 +132,12 @@ q = mCΔT.
 Escriba un programa que lea la masa de un poco de agua y el cambio de temperatura del usuario. Su programa debe mostrar la cantidad total de energía que debe agregarse o eliminarse para lograr el cambio de temperatura deseado.
 Sugerencia: La capacidad calorífica específica del agua es 4.186 J g◦C. Debido a que el agua tiene una densidad de 1.0 gramo por mililitro, puede usar gramos y mililitros de manera intercambiable en este ejercicio.
 
+[Ejercicio 17](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio17.py)
+
 ## Ejercicio 18 
 El volumen de un cilindro se puede calcular multiplicando el área de su base circular por su altura. Escriba un programa que lea el radio del cilindro, junto con su altura, del usuario y calcule su volumen. Muestra el resultado redondeado a un decimal.
+
+[Ejercicio 18](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio18.py)
 
 
 
