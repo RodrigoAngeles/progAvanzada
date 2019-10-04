@@ -146,6 +146,52 @@ La aceleración = g, la distancia = d
 
 [Ejercicio 19](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio19.py)
 
+## Ejercicio 20
+La ley de los gases ideales es una aproximación matemática del comportamiento de los gases a medida que cambian la presión, el volumen y la temperatura. Por lo general, se indica como:
+PV = nRT
+donde P es la presión en Pascales, V es el volumen en litros, n es la cantidad de sustancia en moles, R es la constante de gas ideal, igual a 8.314 J mol K, y T es la temperatura en grados Kelvin.
+Escriba un programa que calcule la cantidad de gas en moles cuando el usuario suministra la presión, el volumen y la temperatura. Pruebe su programa determinando la cantidad de moles de gas en un tanque de buceo. Un tanque típico de SCUBA contiene 12 litros de gas a una presión de 20,000,000 Pascales (aproximadamente 3,000 PSI). La temperatura ambiente es de aproximadamente 20 grados Celsius o 68 grados Fahrenheit.
+Sugerencia: una temperatura se convierte de Celsius a Kelvin al agregarle 273.15. Para convertir una temperatura de Fahrenheit a Kelvin, deduzca 32 de ella, multiplíquela por 5/9 y luego agregue 273.15.
+
+[Ejercicio 20](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio20.py)
+
+## Ejercicio 21
+El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura:
+área = b × h / 2
+Escriba un programa que permita al usuario ingresar valores para b y h. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base b y altura h.
+
+[Ejercicio 21](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio21.py)
+
+## Ejercicio 22
+En el ejercicio anterior, se creó un programa que calculaba el área de un triángulo cuando se conocía la longitud de su base y su altura. También es posible calcular el área de un triángulo cuando se conocen las longitudes de los tres lados. Sean s1, s2 y s3 las longitudes de los lados. Sea s = (s1 + s2 + s3) / 2. Entonces el área del triángulo
+se puede calcular usando la siguiente fórmula:
+área = s × (s - s1) × (s - s2) × (s - s3)
+Desarrolle un programa que lea las longitudes de los lados de un triángulo del usuario y muestre su área.
+
+[Ejercicio 22](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio22.py)
+
+## Ejercicio 23
+Un polígono es regular si sus lados tienen la misma longitud y los ángulos entre todos los lados adyacentes son iguales. El área de un polígono regular se puede calcular usando la siguiente fórmula, donde s es la longitud de un lado y n es el número de lados:
+área = (n × s^2) / (4 × tan (π/ n))
+Escriba un programa que lea s y n del usuario y luego muestre el área de un polígono regular construido a partir de estos valores
+
+[Ejercicio 23](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio23.py)
+
+## Ejercicio 24
+Crear un programa que le pida al usurario la duracion en dias. horas. minutos y segundos. Calcular y desplegar la cantidad total de segundos de duracion 
+
+[Ejercicio 24](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio24.py)
+
+## Ejercicio 25
+En este ejercicio usted revertira el proceso descrito en el ejercicio previo.Desarrolle un programa que comnienze por leer una cantidad en segundos introducidos por el usuario. Su programa debe desplegar la cantidad equivlente en forma de D:HH:NN:SS, Donde D son los dias, HH las horas, MM los minutos y SS los segundos.las horas, minutos y segundos deben estar en formato de 2 digitos, con un 0 al inicio, si es necesario.
+
+[Ejercicio 25](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio25.py)
+
+## Ejercicio 26
+Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada “asctime” en el módulo de “tiempo”. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
+
+[Ejercicio 26](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio26.py)
+
 
 
 
