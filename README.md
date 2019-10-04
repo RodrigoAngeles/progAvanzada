@@ -192,6 +192,50 @@ Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida
 
 [Ejercicio 26](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio26.py)
 
+## Ejercicio 27
+Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Utilizando la siguiente formula:
+IMC = masa/peso^2
+
+[Ejercicio 27](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio27.py)
+
+## Ejercicio 28
+Cuando el viento sopla en clima frío, el aire se siente aún más frío de lo que realmente es porque el movimiento del aire aumenta la velocidad de enfriamiento de los objetos cálidos, como las personas. Este efecto se conoce como sensación térmica.
+En 2001, Canadá, el Reino Unido y los Estados Unidos adoptaron la siguiente fórmula para calcular el índice de sensación térmica. Dentro de la fórmula “Ta” está la temperatura del aire en grados Celsius y “V” es la velocidad del viento en kilómetros por hora.
+Se puede usar una fórmula similar con diferentes valores constantes con temperaturas en grados Fahrenheit y velocidades del viento en millas por hora.
+WCI = 13.12 + 0.6215Ta − 11.37V0.16 + 0.3965TaV0.16
+Escriba un programa que comience leyendo la temperatura del aire y la velocidad del viento del usuario. Una vez que se hayan leído estos valores, su programa debería mostrar el índice de enfriamiento del viento redondeado al entero más cercano.
+El índice de enfriamiento del viento solo se considera válido para temperaturas inferiores o iguales a 10 grados Celsius y velocidades del viento superiores a 4,8 kilómetros por hora
+
+[Ejercicio 28](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio28.py)
+
+## Ejercicio 29
+Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
+
+[Ejercicio 29](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio29.py)
+
+## Ejercicio 30
+En este ejercicio creará un programa que lee la presión del usuario en kilopascales. Una vez que se haya leído la presión, su programa debe informar la presión equivalente en libras por pulgada cuadrada, milímetros de mercurio y atmósferas. Usa tus habilidades de investigación para determinar los factores de conversión entre estas unidades
+
+[Ejercicio 30](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio30.py)
+
+## Ejercicio 31
+Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
+
+[Ejercicio 31](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio31.py)
+
+## Ejercicio 32
+Cree un programa que lea tres enteros del usuario y los muestre en orden, ordenado (de menor a mayor). Use las funciones min y max para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo.
+
+[Ejercicio 32](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio32.py)
+
+## Ejercicio 33
+Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse usando dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables.
+
+[Ejercicio 33](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio33.py)
+
+
+
+
 
 
 
