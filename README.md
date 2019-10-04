@@ -139,7 +139,7 @@ El volumen de un cilindro se puede calcular multiplicando el área de su base ci
 
 [Ejercicio 18](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio18.py)
 
-# Ejercicio 19
+## Ejercicio 19
 Escriba un programa que determine como un objeto viaja cuando golpea el piso. El usuario insertara la información de la altura desde donde el objeto se deja caer, en metros(m) dado que el objeto se deja caer desde el reposo (Velocidad inicial V0= 0 m/s). Asumiendo que la aceleración debido a la gravedad es 9.81 m/s^2 y usando la formula Vf= raiz (Vo ^2 + 2gd). 
 Calcule la velocidad final Vf usando la velocidad inicial V0 
 La aceleración = g, la distancia = d
@@ -232,6 +232,53 @@ Cree un programa que lea tres enteros del usuario y los muestre en orden, ordena
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse usando dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables.
 
 [Ejercicio 33](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio33.py)
+
+# Control de flujo 
+Si un programa no fuera más que una lista de órdenes a ejecutar de forma secuencia una por una no tendría mucha utilidad.
+La sentencia condicional nos permite comprobar condiciones y hacer que nuestro programa se comporte de una forma u otra que ejecute un fragmento de código u otro dependiente de otra condición.
+Aquí es donde cobran su importancia el tipo booleano y los operadores lógicos e irracionales.
+
+# Condicional IF
+La forma más simple de una sentencia condicional es un “ if “ (del inglés “si”). Seguido de la condición a evaluar, dos puntos (:) e identado el código a ejecutar en caso de que se cumpla dicha condición.
+
+## Ejemplo
+Password == input(‘inserta el pasword: ’)
+If password == ‘Comunitesh’:
+        Print (‘password correcto’)
+
+La identacion del código se realiza con cuatro espacios.
+
+# Condición if….. else
+
+Esta estructura permite añadir un comportamiento en caso de que la condicion no resulte cierta.
+
+## por ejemplo:
+Else:
+Print(‘te equivocaste’)
+
+# Estructura if… elif…elif…else
+El comando elif es la contracción de else..if , en español “ si no”
+
+## Ejemplo:
+
+Edad = in(input(‘inserta tu edad: ‘))
+If  edad > 60:
+    Print(‘Eres un adulto mayor’) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
