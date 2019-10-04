@@ -252,7 +252,7 @@ La identacion del código se realiza con cuatro espacios.
 
 Esta estructura permite añadir un comportamiento en caso de que la condicion no resulte cierta.
 
-## por ejemplo:
+## Ejemplo:
 Else:
 Print(‘te equivocaste’)
 
