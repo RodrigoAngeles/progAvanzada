@@ -243,7 +243,9 @@ La forma más simple de una sentencia condicional es un “ if “ (del inglés 
 
 ## Ejemplo
 Password == input(‘inserta el pasword: ’)
+
 If password == ‘Comunitesh’:
+
         Print (‘password correcto’)
 
 La identacion del código se realiza con cuatro espacios.
@@ -254,6 +256,7 @@ Esta estructura permite añadir un comportamiento en caso de que la condicion no
 
 ## Ejemplo:
 Else:
+
 Print(‘te equivocaste’)
 
 # Estructura if… elif…elif…else
@@ -262,7 +265,9 @@ El comando elif es la contracción de else..if , en español “ si no”
 ## Ejemplo:
 
 Edad = in(input(‘inserta tu edad: ‘))
+
 If  edad > 60:
+
     Print(‘Eres un adulto mayor’) 
 
 
