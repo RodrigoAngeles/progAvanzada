@@ -296,7 +296,7 @@ Escriba un programa que determine el nombre de una forma a partir de su número 
 ## Ejercicio 38
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
 
-[Ejercicio 39](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio39.py)
+[Ejercicio 38](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio38.py)
 
 
 
