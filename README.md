@@ -309,6 +309,14 @@ La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos c
 |Cuarto tranquilo  |40                      |
 
 
+Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el usuario ingresa un nivel de decibelios que coincide con uno de los ruidos en la tabla, entonces su programa debería mostrar un mensaje que contenga solo ese ruido. Si el usuario ingresa una cantidad de decibelios entre los ruidos enumerados, entonces su programa debe mostrar un mensaje que indique entre qué ruidos se encuentra el nivel. Asegúrese de que su programa también genere una salida razonable para un valor menor que el ruido más bajo de la tabla y para un valor mayor que el ruido más alto de la tabla.
+
+[Ejercicio 39](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio39.py)
+
+## Ejercicio 40
+Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Muestra un mensaje que indica el tipo de triángulo.
+
+
 
 
 
