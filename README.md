@@ -298,6 +298,15 @@ La duración de un mes varía de 28 a 31 días. En este ejercicio creará un pro
 
 [Ejercicio 38](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio38.py)
 
+## Ejercicio 39
+La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos comunes.
+
+|RUIDO             |NIVEL DE DECIBELES (dB) |
+|------------------|-----------------------:|
+|Martillo naumatico|130                     |
+|Cortador de cesped|106                     |
+|Despertador       |70                      |
+|Cuarto tranquilo  |40                      |
 
 
 
