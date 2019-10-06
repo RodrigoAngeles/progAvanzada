@@ -34,7 +34,7 @@ elif dbLevel == 130:
 	print('Martillo neumatico')   
 
 elif dbLevel > 130:
-	print('Muy ruidos')
+	print('Muy ruidoso')
 	
 	
 
