@@ -316,7 +316,7 @@ Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el 
 ## Ejercicio 40
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Muestra un mensaje que indica el tipo de triángulo.
 
-
+[Ejercicio 40](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio40.py)
 
 
 
