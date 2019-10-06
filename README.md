@@ -271,8 +271,32 @@ If  edad > 60:
     Print(‘Eres un adulto mayor’) 
 
 
+## Ejercicio 34
+Escriba un programa que lea un numero entero por el usuario.
+Su programa debe despleglar un mensaje indicando si su numero entero es par o impar
 
+[Ejercicio 34](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio34.py)
 
+## Ejercicio 35
+Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro.
+Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
+
+[Ejercicio 35](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio35.py)
+
+## Ejercicio 36
+En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o, u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa Y entonces su programa debería mostrar un mensaje que indica que a veces Y es una vocal, y a veces Y es una consonante. De lo contrario, su programa debería mostrar un mensaje indicando que la letra es una consonante.
+
+[Ejercicio 36](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio36.py)
+
+## Ejercicio 37 
+Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
+
+[Ejercicio 37](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio37.py)
+
+## Ejercicio 38
+La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
+
+[Ejercicio 39](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio39.py)
 
 
 
