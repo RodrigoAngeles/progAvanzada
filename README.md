@@ -334,6 +334,59 @@ La siguiente tabla enumera una octava de notas musicales, comenzando con C centr
 Comience escribiendo un programa que lea el nombre de una nota del usuario y muestre la frecuencia de la nota. Su programa debe admitir todas las notas enumeradas anteriormente.
 Una vez que tenga su programa funcionando correctamente para las notas enumeradas anteriormente, debe agregar soporte para todas las notas de C0 a C8. Si bien esto podría hacerse agregando muchos casos adicionales a su declaración if, dicha solución es engorrosa, poco elegante e inaceptable para los propósitos de este ejercicio. En cambio, debe explotar la relación entre las notas en octavas adyacentes. En particular, la frecuencia de cualquier nota en octava “n” es la mitad de la frecuencia de la nota correspondiente en octava n + 1. Al usar esta relación, debería poder agregar soporte para las notas adicionales sin agregar casos adicionales a su declaración if.
 
+[Ejercicio 41](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio41.py)
+
+## Ejercicio 42
+En la pregunta anterior, convertiste del nombre de la nota a la frecuencia. En esta pregunta escribirás un programa que revierte ese proceso. Comience leyendo una frecuencia del usuario. Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota. De lo contrario, informe que la frecuencia no corresponde a una nota conocida. En este ejercicio solo necesita considerar las notas enumeradas en la tabla. No hay necesidad de considerar notas de otras octavas.
+
+[Ejercicio 42](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio42.py)
+
+## Ejercicio 43
+Es común que las imágenes de los líderes anteriores de un país, u otras personas de importancia histórica, aparezcan en su dinero. Las personas que aparecen en los billetes en los Estados Unidos son las siguientes.
+Escriba un programa que comience leyendo la denominación de un billete del usuario. Luego, su programa debe mostrar el nombre de la persona que aparece en el billete de la cantidad ingresada. Se debe mostrar un mensaje de error apropiado si no existe dicha cantidad.
+|NOMBRE             |CANTIDAD |
+|-------------------|--------------------------:|
+|George Washington       |$1                         |
+|Thomas Jefferson|$2                           |
+|Abraham Lincoln|$5                          |
+|Alexander Hamilton|$10                          |
+|Andrew Jackson|$20                          |
+|Ulysses S. Grant|$50                           |
+|Benjamin Franklin|$100                           |
+
+[Ejercicio 43](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio43.py)
+
+## Ejercicio 44
+Canadá tiene días tres feriados nacionales que caen en las mismas fechas cada año. Escriba un programa que lea un mes y un día del usuario. Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado. De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día festivo de fecha fija.
+Canadá tiene dos feriados nacionales adicionales, el Viernes Santo y el Día del Trabajo, cuyas fechas varían de un año a otro. También hay numerosas fiestas provinciales y territoriales, algunas de las cuales tienen fechas fijas y otras tienen fechas variables. No consideraremos ninguno de estos días festivos adicionales en este ejercicio.
+|CELEBRACIÓN             |FECHA |
+|-------------------|--------------------------:|
+|Año nuevo      | Enero 1                     |
+|Dia de Canada| julio 1                          |
+|Navidad| Diciembre 25                          |
+
+[Ejercicio 44](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio44.py)
+
+## Ejercicio 45
+Las posiciones en un tablero de ajedrez se identifican con una letra y un número. La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación:
+
+Escriba un programa que lea una posición del usuario. Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco. Luego use la aritmética modular para informar el color del cuadrado en esa fila. Por ejemplo, si el usuario ingresa a1, su programa debe informar que el cuadrado es negro. Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco. Su programa puede asumir que siempre se ingresará una posición válida. No necesita realizar ninguna comprobación de errores.
+
+[Ejercicio 45](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio45.py)
+
+## Ejercicio 46
+El año esta dividido en cuatro temporadas: Primavera, verano, otoño e invierno. Aunque las fechas exacatas cambian un poco dependiendo del año, usemos las siguientes fechas:
+|TEMPORADA             |PRIMER DIA |
+|-------------------|--------------------------:|
+|Primavera      | Marzo 21                   |
+|Verano | Junio 21                          |
+|Otoño | Septimebre 22                          |
+|Invierno | Diciembre 21                          |
+Escriba un programa en el que el usuario introduzca el mes y dia.
+El usuario introducira el nombre del mes como una 'string' seguido del dia como entero 'int'
+Su programa debe desplegar la temporada de acuerdo a la informacion introducida por el usuario.
+
+[Ejercicio 46](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio46.py)
 
 
 
