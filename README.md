@@ -344,6 +344,7 @@ En la pregunta anterior, convertiste del nombre de la nota a la frecuencia. En e
 ## Ejercicio 43
 Es común que las imágenes de los líderes anteriores de un país, u otras personas de importancia histórica, aparezcan en su dinero. Las personas que aparecen en los billetes en los Estados Unidos son las siguientes.
 Escriba un programa que comience leyendo la denominación de un billete del usuario. Luego, su programa debe mostrar el nombre de la persona que aparece en el billete de la cantidad ingresada. Se debe mostrar un mensaje de error apropiado si no existe dicha cantidad.
+
 |NOMBRE             |CANTIDAD |
 |-------------------|--------------------------:|
 |George Washington       |$1                         |
@@ -359,6 +360,7 @@ Escriba un programa que comience leyendo la denominación de un billete del usua
 ## Ejercicio 44
 Canadá tiene días tres feriados nacionales que caen en las mismas fechas cada año. Escriba un programa que lea un mes y un día del usuario. Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado. De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día festivo de fecha fija.
 Canadá tiene dos feriados nacionales adicionales, el Viernes Santo y el Día del Trabajo, cuyas fechas varían de un año a otro. También hay numerosas fiestas provinciales y territoriales, algunas de las cuales tienen fechas fijas y otras tienen fechas variables. No consideraremos ninguno de estos días festivos adicionales en este ejercicio.
+
 |CELEBRACIÓN             |FECHA |
 |-------------------|--------------------------:|
 |Año nuevo      | Enero 1                     |
@@ -376,12 +378,14 @@ Escriba un programa que lea una posición del usuario. Use una declaración if p
 
 ## Ejercicio 46
 El año esta dividido en cuatro temporadas: Primavera, verano, otoño e invierno. Aunque las fechas exacatas cambian un poco dependiendo del año, usemos las siguientes fechas:
+
 |TEMPORADA             |PRIMER DIA |
 |-------------------|--------------------------:|
 |Primavera      | Marzo 21                   |
 |Verano | Junio 21                          |
 |Otoño | Septimebre 22                          |
 |Invierno | Diciembre 21                          |
+
 Escriba un programa en el que el usuario introduzca el mes y dia.
 El usuario introducira el nombre del mes como una 'string' seguido del dia como entero 'int'
 Su programa debe desplegar la temporada de acuerdo a la informacion introducida por el usuario.
