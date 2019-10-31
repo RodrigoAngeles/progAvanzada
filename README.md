@@ -437,9 +437,7 @@ Escriba un programa que lea un año del usuario y muestre el animal asociado con
 
 ## Ejercicio 49
 La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
-Micro
-Muy menor
-Menor	
+
 |Magnitud| Tipos|
 |---------|-----------| 
 |Menor que 2.0| Micro| 
@@ -451,6 +449,7 @@ Menor
 |7.0 Menor que 8.0 |Mayor|
 |8.0 Menor que 10.0| Grande| 
 |10.0 o más |Meteórico|
+
 Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, entonces su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
 
 [Ejercicio 49](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio49.py)
