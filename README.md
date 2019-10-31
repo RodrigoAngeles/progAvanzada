@@ -521,12 +521,12 @@ La radiación electromagnética se puede clasificar en una de las 7 categorías 
 |Nombre |Rango de frecuencia (Hz)|
 |---------|-----------|
 |Ondas de radio |Menor de 3 × 10^9|
-|Microondas |3 × 109 a menos de 3 × 10^12|
-|Luz infrarroja| 3 × 1012 a menos de 4.3 × 10^14|
-|Luz visible |4.3 × 1014 a menos de 7.5 × 10^14|
-|Luz ultravioleta| 7.5 × 1014 a menos de 3 × 10^17|
-|Rayos X |3 × 1017 a menos de 3 × 10^19|
-|Rayos gamma |3 × 1019 o más|
+|Microondas |3 × 10^9 a menos de 3 × 10^12|
+|Luz infrarroja| 3 × 10^12 a menos de 4.3 × 10^14|
+|Luz visible |4.3 × 10^14 a menos de 7.5 × 10^14|
+|Luz ultravioleta| 7.5 × 10^14 a menos de 3 × 10^17|
+|Rayos X |3 × 10^17 a menos de 3 × 10^19|
+|Rayos gamma |3 × 10^19 o más|
 
 Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
 
