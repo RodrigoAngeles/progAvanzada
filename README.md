@@ -454,7 +454,83 @@ Escriba un programa que lea una magnitud del usuario y muestre el descriptor apr
 
 [Ejercicio 49](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio49.py)
 
+## Ejercicio 50
+Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, b y c son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación:
+root = (−b ± √ b2 − 4ac )/(2a)
+La parte de la expresión debajo del signo de raíz cuadrada se llama discriminante. Si el discriminante es negativo, entonces la ecuación cuadrática no tiene raíces reales.
+Si el discriminante es 0, entonces la ecuación tiene una raíz real. De lo contrario, la ecuación tiene dos raíces reales, y la expresión debe evaluarse dos veces, una vez usando un signo más, y una vez usando un signo menos, al calcular el numerador.
+Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, b y c, luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay).
 
+[Ejercicio 50](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio50.py)
+
+## Ejercicio 51
+En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
+
+|Letra | Grado de punto |
+|---------|-----------|
+|A+| 4.0 |
+|A |4.0 |
+|A− |3.7| 
+|B+| 3.3 |
+|B |3.0 |
+|B− |2.7| 
+|C+| 2.3 |
+|C |2.0 |
+|C− |1.7| 
+|D+| 1.3 |
+|D |1.0 |
+|F |0|
+
+Escriba un programa que comience leyendo una calificación de letra del usuario. Luego, su programa debe calcular y mostrar el número equivalente de puntos de calificación. Asegúrese de que su programa genere un mensaje de error apropiado si el usuario ingresa una calificación de letra no válida.
+
+[Ejercicio 1](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio51.py)
+
+## Ejercicio 52
+En el ejercicio anterior, creó un programa que convierte una calificación de letra en el número equivalente de puntos de calificación. En este ejercicio creará un programa que invierte el proceso y convierte de un valor de calificación ingresado por el usuario a una calificación de letra. Asegúrese de que su programa maneje los valores de calificación que se encuentran entre las calificaciones de las letras. Estos deben redondearse al grado de letra más cercano. Su programa debe reportar A + para un promedio de calificaciones de 4.0 (o más).
+
+[Ejercicio 52](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio52.py)
+
+## Ejercicio 53
+En una empresa en particular, los empleados son calificados al final de cada año. La escala de calificación comienza en 0.0, con valores más altos que indican un mejor rendimiento y que resultan en aumentos mayores. El valor otorgado a un empleado es 0.0, 0.4 o 0.6 o más. Los valores entre 0.0 y 0.4, y entre 0.4 y 0.6 nunca se usan. El significado asociado con cada calificación se muestra en la siguiente tabla. El monto del aumento de un empleado es de $ 2400.00 multiplicado por su calificación.
+
+|Valoración |Rendimiento|
+|---------|----------|
+|0.0 |Rendimiento inaceptable|
+|0.4 |Rendimiento aceptable|
+|0.6 o más |Rendimiento meritorio|
+
+Escriba un programa que lea una calificación del usuario e indique si el rendimiento fue inaceptable, aceptable o meritorio. También se debe informar el monto del aumento del empleado. Su programa debe mostrar un mensaje de error apropiado si se ingresa una calificación no válida.
+
+[Ejercicio 53](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio53.py)
+
+## Ejercicio 54
+La longitud de onda de la luz visible varía de 380 a 750 nanómetros (nm). Si bien el espectro es continuo, a menudo se divide en 6 colores como se muestra a continuación:
+|Color |Longitud de onda (nm) |
+|---------|-----------|
+|Violeta |380 o menor que 450| 
+|Azul |450 o menor que 495 |
+|Verde |495 o menor que 570 |
+|Amarillo |570 o menor que 590 |
+|Naranja |590 o menor que 620| 
+|Rojo |620 to 750|
+Escriba un programa que lea una longitud de onda del usuario e informe su color. Muestre un mensaje de error apropiado si la longitud de onda ingresada por el usuario está fuera del espectro visible.
+
+## Ejercicio 55
+La radiación electromagnética se puede clasificar en una de las 7 categorías según su frecuencia, como se muestra en la tabla a continuación:
+
+|Nombre |Rango de frecuencia (Hz)|
+|---------|-----------|
+|Ondas de radio |Menor de 3 × 10^9|
+|Microondas |3 × 109 a menos de 3 × 10^12|
+|Luz infrarroja| 3 × 1012 a menos de 4.3 × 10^14|
+|Luz visible |4.3 × 1014 a menos de 7.5 × 10^14|
+|Luz ultravioleta| 7.5 × 1014 a menos de 3 × 10^17|
+|Rayos X |3 × 1017 a menos de 3 × 10^19|
+|Rayos gamma |3 × 1019 o más|
+
+Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
+
+[Ejercicio 55](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio55.py)
 
 
 
