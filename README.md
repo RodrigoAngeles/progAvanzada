@@ -392,8 +392,68 @@ Su programa debe desplegar la temporada de acuerdo a la informacion introducida 
 
 [Ejercicio 46](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio46.py)
 
+## Ejercicio 47
+Los horóscopos comúnmente reportados en los periódicos usan la posición del sol en el momento del nacimiento para intentar predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco, como se describe en la tabla a continuación:
 
+|Signo zodiacal | Fechas |
+|Capricornio |Diciembre 22 to Enero 19| 
+|Aquario |Enero 20 to Febrero 18| 
+|Piscis |Febrero 19 to Marzo 20| 
+|Aries |Marzo 21 to Abril 19| 
+|Tauro |Abril 20 to Mayo 20| 
+|Geminis |Mayo 21 to Junio 20| 
+|Cancer |Junio 21 to Julio 22| 
+|Leo |Julio 23 to Agosto 22| 
+|Virgo |Agosto 23 to Septiembre 22| 
+|Libra |Septiembre 23 to Octubre 22| 
+|Escorpion |Octubre 23 to Noviembre 21| 
+|Sagitario |Noviembre 22 to Diciembre 21|
 
+Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Luego, nuestro programa debe informar el signo zodiacal del usuario como parte de un mensaje de salida apropiado.
+
+[Ejercicio 47](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio47.py)
+
+## Ejercicio 48
+El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años se muestra en la tabla a continuación. El patrón se repite a partir de ahí, con 2012 siendo otro año del dragón, y 1999 siendo otro año de la liebre.
+
+|Año |Animal| 
+|----------|----------|
+|2000 |Dragón| 
+|2001 |Serpiente |
+|2002 |Caballo |
+|2003 |Oveja|
+|2004 |Mono| 
+|2005 |Gallo |
+|2006 |Perro |
+|2007 |Cerdo |
+|2008 |Rata |
+|2009 |Buey |
+|2010 |Tigre| 
+|2011| Liebre|
+
+Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente durante cualquier año mayor o igual a cero, no solo los que figuran en la tabla.
+
+[Ejercicio 48](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio48.py)
+
+## Ejercicio 49
+La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
+Micro
+Muy menor
+Menor	
+|Magnitud| Tipos|
+|---------|-----------| 
+|Menor que 2.0| Micro| 
+|2.0 Menor que 3.0| Muy suave| 
+|3.0 Menor que 4.0| Suave |
+|4.0 Menor que 5.0 |Ligero|
+|5.0 Menor que 6.0 |Moderado| 
+|6.0 Menor que 7.0 |Fuerte| 
+|7.0 Menor que 8.0 |Mayor|
+|8.0 Menor que 10.0| Grande| 
+|10.0 o más |Meteórico|
+Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, entonces su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
+
+[Ejercicio 49](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio49.py)
 
 
 
