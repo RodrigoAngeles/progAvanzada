@@ -533,7 +533,48 @@ Escriba un programa que lea la frecuencia de la radiación del usuario y muestre
 [Ejercicio 55](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio55.py)
 
 
+## Ejercicio 56
+Un plan particular de telefonía celular incluye 50 minutos de tiempo al aire y 50 mensajes de texto por $ 15.00 al mes. Cada minuto adicional de tiempo de emisión cuesta $ 0.25, mientras que los mensajes de texto adicionales cuestan $ 0.15 cada uno. Todas las facturas de teléfonos celulares incluyen un cargo adicional de $ 0.44 para respaldar los centros de atención telefónica del 911, y toda la factura (incluido el cargo del 911) está sujeta al impuesto sobre las ventas del 5 por ciento.
+Escriba un programa que lea la cantidad de minutos y mensajes de texto utilizados en un mes por parte del usuario. Muestre el cargo base, el cargo adicional por minutos (si corresponde), el cargo adicional por mensaje de texto (si corresponde), la tarifa del 911, el impuesto y el monto total de la factura. Solo muestre los cargos adicionales por minutos y mensajes de texto si el usuario incurrió en costos en estas categorías. Asegúrese de que todos los cargos se muestren con 2 decimales.
 
+[Ejercicio 56](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio56.py)
+
+## Ejercicio 57
+La mayoría de los años tienen 365 días. Sin embargo, el tiempo requerido para que la Tierra orbita alrededor del Sol es en realidad un poco más que eso. Como resultado, se incluye un día adicional, el 29 de febrero, en algunos años para corregir esta diferencia. Dichos años se denominan años bisiestos. Las reglas para determinar si un año es o no bisiesto son las siguientes:
+• Cualquier año que es divisible por 400 es un año bisiesto.
+• De los años restantes, cualquier año divisible por 100 no es bisiesto.
+• De los años restantes, cualquier año que sea divisible por 4 es un año bisiesto.
+• Todos los demás años no son bisiestos.
+Escriba un programa que lea un año del usuario y muestre un mensaje que indique si es o no un año bisiesto.
+
+[Ejercicio 57](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio57.py)
+
+## Ejercicio 58
+Escriba un programa que lea una fecha del usuario y calcule su sucesor inmediato. Por ejemplo, si el usuario ingresa valores que representan 2013-11-18, entonces su programa debería mostrar un mensaje que indica que el día inmediatamente posterior a 2013-11-18 es 2013-11-19. Si el usuario ingresa valores que representan 2013-11-30, entonces el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario ingresa valores que representan 2013-12-31, entonces el programa debe indicar que el día siguiente es 2014-01-01. La fecha se ingresará en forma numérica con tres declaraciones de entrada separadas; uno para el año, uno para el mes y otro para el día. Asegúrese de que su programa funcione correctamente durante los años bisiestos.
+
+[Ejercicio 58](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio58.py)
+
+## Ejercicio 59
+En una jurisdicción particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando todas las placas que siguieron ese patrón tenían Una vez utilizado, el formato se cambió a cuatro números seguidos de tres letras mayúsculas.
+Escriba un programa que comience leyendo una cadena de caracteres del usuario. Luego, su programa debe mostrar un mensaje que indique si los caracteres son válidos para una placa de estilo anterior o una placa de estilo más nueva. Su programa debe mostrar un mensaje apropiado si la cadena ingresada por el usuario no es válida para ninguno de los estilos de matrícula.
+
+[Ejercicio 59](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio59.py)
+
+## Ejercicio 60
+Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y dos son verdes. Los espacios verdes están numerados 0 y 00. Los espacios rojos están numerados 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 y 36. los números enteros restantes entre 1 y 36 se usan para numerar los espacios negros.
+Se pueden hacer muchas apuestas diferentes en la ruleta. Solo consideraremos el siguiente subconjunto de ellos en este ejercicio:
+• Número único (1 a 36, 0 o 00)
+• Rojo contra negro
+• Impar versus par (tenga en cuenta que 0 y 00 no pagan por par)
+• 1 a 18 versus 19 a 36
+Escriba un programa que simule el giro de una rueda de ruleta utilizando el generador de números aleatorios de Python. Muestra el número que se seleccionó y todas las apuestas que se deben pagar. Por ejemplo, si se selecciona 13, su programa debería mostrar:
+El giro resultó en 13 ...
+Pagar 13
+Pagar negro
+Paga impar
+Pague de 1 a 18
+
+[Ejercicio 60](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio60.py)
 
 
 
