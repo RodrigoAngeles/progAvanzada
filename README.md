@@ -576,6 +576,75 @@ Pague de 1 a 18
 
 [Ejercicio 60](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio60.py)
 
+## Ejercicio 61
+En este ejercicio usted creara un programa que calcule el promedio de una colección de valores insertados por el usuario, si el usuario introduce el valor cero, el programa debe dejar de pedir valores y posteriormente, mostrar el promedio calculado.
+
+[Ejercicio 61](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio61.py)
+
+## Ejercicio 62
+Un supermercado está ofreciendo el 60% de descuento en una variedad de productos descontinuados. El supermercado quiere ayudar a sus clientes a determinar el precio reducido de su mercancía con una tabla impresa en los aparadores donde muestre los precios originales y los precios después de aplicarse el descuento. Escribe un programa que use un ciclo “while” para generar esa tabla, mostrando el precio original, el descuento y el nuevo precio para los productos de 
+$4.95
+$9.95
+$14.95
+$19.95
+$24.95
+Los descuentos y los nuevos precios deben ser redondeados a dos decimales.
+
+[Ejercicio 62](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio62.py)
+
+## Ejercicio 63
+Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados centígrados que son múltiplos de 10 grados centígrados. Incluya encabezados apropiados en sus columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet.
+
+[Ejercicio 63](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio63.py)
+
+## Ejercicio 64
+El 4 de febrero de 2013 fue el último día en que Royal Canadian Mint distribuyó centavos. Ahora que los centavos se han eliminado, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se pagan en efectivo (las transacciones con tarjeta de crédito y débito se siguen cargando al centavo). Si bien los minoristas tienen cierta libertad en cómo lo hacen, la mayoría elige redondear al níquel más cercano.
+Escriba un programa que lea los precios del usuario hasta que se ingrese una línea en blanco. Muestre el costo total de todos los artículos ingresados en una línea, seguido del monto adeudado si el cliente paga con efectivo en una segunda línea. El monto adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una forma de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. Luego calcule el resto cuando este número de centavos se divide por 5. Finalmente, ajuste el total hacia abajo si el resto es menor que 2.5. De lo contrario, ajuste el total hacia arriba.
+
+[Ejercicio 64](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio64.py)
+
+## Ejercicio 65
+Escribe un programa que calcule el perímetro de un polígono. Comience leyendo los valores X e Y para el primer punto en el perímetro del polígono del usuario. Luego, continúe leyendo pares de valores X e Y hasta que el usuario ingrese una línea en blanco para la Coordenada X. Cada vez que lea una coordenada adicional, debe calcular la distancia al punto anterior y agregarla al perímetro. Cuando se ingresa una línea en blanco para la coordenada X, su programa debe agregar la distancia desde el último punto de regreso al primer punto al perímetro. Entonces debería mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, con la entrada del usuario en negrita:
+Ingrese la parte x de la coordenada: 0
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 1
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 0
+Ingrese la parte y de la coordenada: 1
+Ingrese la parte x de la coordenada: (en blanco para salir):
+El perímetro de ese polígono es 3.414213562373095
+
+[Ejercicio 65](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio65.py)
+
+## Ejercicio 66
+El ejercicio 51 incluyó una tabla que muestra la conversión de calificaciones de letras a puntos de calificación en una institución académica particular. En este ejercicio calculará el promedio de calificaciones de un número arbitrario de calificaciones de letras ingresadas por el usuario. El usuario ingresará una línea en blanco para indicar que se han proporcionado todas las calificaciones. Por ejemplo, si el usuario ingresa A, seguido de C +, seguido de B, seguido de una línea en blanco, su programa debe informar un promedio de calificaciones de 3.1.
+Puede encontrar útil su solución para el ejercicio 51 al completar este ejercicio. Su programa no necesita hacer ninguna comprobación de errores. Se puede suponer que cada valor ingresado por el usuario siempre será una calificación de letra válida o una línea en blanco.
+
+[Ejercicio 66](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio66.py)
+
+## Ejercicio 67
+Un zoológico en particular determina el precio de admisión según la edad del huésped. Los huéspedes de 2 años de edad y menores son admitidos sin cargo. Los niños entre 3 y 12 años cuestan $ 14.00. Las personas mayores de 65 años y más cuestan $ 18.00. La entrada para todos los demás huéspedes es de $ 23.00.
+Cree un programa que comience leyendo las edades de todos los invitados en un grupo del usuario, con una edad ingresada en cada línea. El usuario ingresará una línea en blanco para indicar que no hay más invitados en el grupo. Luego, su programa debe mostrar el costo de admisión para el grupo con un mensaje apropiado. El costo debe mostrarse con dos decimales.
+
+[Ejercicio 67](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio67.py)
+
+## Ejercicio 68
+Un bit de paridad es un mecanismo simple para detectar errores en los datos transmitidos a través de una conexión no confiable, como una línea telefónica. La idea básica es que se transmite un bit adicional después de cada grupo de 8 bits para que se pueda detectar un error de un solo bit en la transmisión.
+Los bits de paridad se pueden calcular para paridad par o paridad impar. Si se selecciona paridad par, se elige el bit de paridad que se transmite de modo que el número total de un bit transmitido (8 bits de datos más el bit de paridad) sea par. Cuando se selecciona paridad impar, se elige el bit de paridad para que el número total de un bit transmitido sea impar.
+Escriba un programa que calcule el bit de paridad para grupos de 8 bits ingresados por el usuario usando paridad par. Su programa debe leer cadenas que contengan 8 bits hasta que el usuario ingrese una línea en blanco. Después de que el usuario ingrese cada cadena, su programa debe mostrar un mensaje claro que indique si el bit de paridad debe ser 0 o 1. Muestre un mensaje de error apropiado si el usuario ingresa algo distinto de 8 bits.
+Sugerencia: debe leer la entrada del usuario como una cadena. Luego puede usar el método de conteo para ayudarlo a determinar la cantidad de ceros y unos en la cadena. La información sobre el método de conteo está disponible en línea.
+
+[Ejercicio 68](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio68.py)
+
+## Ejercicio 69
+El valor de π se puede aproximar mediante las siguientes series infinitas:
+π=3+4/(2*3*4)-4/(4*5*6)+4/(6*7*8)-4/(8*9*10)+4/(10*11*12)-…
+
+Escriba un programa que muestre 15 aproximaciones de π. La primera aproximación debe utilizar solo el primer término de la serie infinita. Cada aproximación adicional mostrada por su programa debe incluir un término más en la serie, por lo que es una mejor aproximación de π que cualquiera de las aproximaciones mostradas anteriormente.
+
+[Ejercicio 69](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio69.py)
+
+
 
 
 
