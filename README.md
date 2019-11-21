@@ -576,6 +576,16 @@ Pague de 1 a 18
 
 [Ejercicio 60](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio60.py)
 
+
+# CICLO WHILE
+un ciclo “while” permite repetir la ejecución de un grupo de instrucciones, mientras se cumple una condición. Es decir, mientras la condición tenga el valor “true” la sintaxis del ciclo “while” es la siguiente.
+while condición :
+    Cuerpo del código a ejecutarse
+La ejecución de esta estructura de control “while” es la siguiente:
+Python evalúa la condición:
+Si el resultado es “true” se ejecuta el cuerpo del bucle o del ciclo. Una vez ejecutado el cuerpo del bucle, se repite el proceso (se evalúa de nuevo la condición, y si es cierta se ejecuta de nuevo el cuerpo del bucle) una y otra vez mientras la condición sea cierta.
+Si el resultado es “false” el cuerpo del bucle no se ejecuta y continua la ejecución del resto del programa.
+
 ## Ejercicio 61
 En este ejercicio usted creara un programa que calcule el promedio de una colección de valores insertados por el usuario, si el usuario introduce el valor cero, el programa debe dejar de pedir valores y posteriormente, mostrar el promedio calculado.
 
