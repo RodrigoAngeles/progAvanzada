@@ -654,6 +654,37 @@ Escriba un programa que muestre 15 aproximaciones de π. La primera aproximació
 
 [Ejercicio 69](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio69.py)
 
+## Ejercicio 70
+Uno de los primeros ejemplos conocidos de cifrado fue utilizado por Julio César. César necesitaba proporcionar instrucciones escritas a sus generales, pero no quería a sus enemigos.
+para conocer sus planes si el mensaje se deslizaba a sus manos. Como resultado, desarrolló lo que más tarde se conoció como el Cifrado César.
+La idea detrás de este cifrado es simple (y como resultado, no proporciona protección contra las técnicas modernas de descifrado de código). Cada letra en el mensaje original se desplaza en 3 lugares. Como resultado, A se convierte en D, B se convierte en E, C se convierte en F, D se convierte en G, etc. Las últimas tres letras del alfabeto se envuelven al principio: X se convierte en A, Y se convierte en B y Z se convierte en C. el cifrado no modifica los caracteres de las letras.
+Escriba un programa que implemente un cifrado César. Permita que el usuario suministre el mensaje y la cantidad de turno, y luego muestre el mensaje desplazado. Asegúrese de que su programa codifique letras mayúsculas y minúsculas. Su programa también debe admitir valores de desplazamiento negativos para que pueda usarse tanto para codificar mensajes como para decodificar mensajes.
+
+## Ejercicio 71
+Escriba un programa que implemente el método de Newton para calcular y mostrar la raíz cuadrada de un número ingresado por el usuario. El algoritmo para el método de Newton sigue:
+Leer x del usuario
+Inicializar adivinar a x / 2
+Mientras que adivinar no es lo suficientemente bueno
+Actualizar conjetura para que sea el promedio de conjetura y x / conjetura
+Cuando se completa este algoritmo, supongo que contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre conjetura ∗ conjetura yx era menor o igual a 10−12.
+
+
+## Ejercicio 72
+En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
+
+| |1|2|3|4|5|6|7|8|9|10|
+|1|1|2|3|4|5|6|7|8|9|10|
+|2|2|4|6|8|10|12|14|16|18|20|
+|3|3|6|9|12|15|18|21|24|27|30|
+|4|4|8|12|16|20|24|28|32|36|40|
+|5|5|10|15|20|25|30|35|40|45|50|
+|6|6|12|18|24|30|36|42|48|54|60|
+|7|7|14|21|28|35|42|49|56|63|70|
+|8|8|16|24|32|40|48|56|64|72|80|
+|9|9|18|27|36|45|54|63|72|81|90|
+|10|10|20|30|40|50|60|70|80|90|100|
+
+Al completar este ejercicio, probablemente le sea útil poder imprimir un valor sin pasar a la siguiente línea. Esto se puede lograr agregando end = " " como el último parámetro a su declaración de impresión. Por ejemplo, print ("A") mostrará la letra A y luego bajará a la siguiente línea. La instrucción de impresión ("A", end = "") mostrará la letra A sin moverse a la línea siguiente, haciendo que la siguiente instrucción de impresión muestre su resultado en la misma línea que la letra A
 
 
 
