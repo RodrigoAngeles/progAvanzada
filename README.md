@@ -672,8 +672,9 @@ Cuando se completa este algoritmo, supongo que contiene una aproximación de la 
 ## Ejercicio 72
 En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
 
-|-|-|-|-|-|-|-|-|-|-|-|
+
 | |1|2|3|4|5|6|7|8|9|10|
+|-|-|-|-|-|-|-|-|-|-|-|
 |1|1|2|3|4|5|6|7|8|9|10|
 |2|2|4|6|8|10|12|14|16|18|20|
 |3|3|6|9|12|15|18|21|24|27|30|
