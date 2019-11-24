@@ -697,6 +697,7 @@ En este ejercicio, creará un programa que muestra una tabla de multiplicación 
 |8|8|16|24|32|40|48|56|64|72|80|
 |9|9|18|27|36|45|54|63|72|81|90|
 |10|10|20|30|40|50|60|70|80|90|100|
+
 Al completar este ejercicio, probablemente le sea útil poder imprimir un valor sin pasar a la siguiente línea. Esto se puede lograr agregando end = " " como el último parámetro a su declaración de impresión. Por ejemplo, print ("A") mostrará la letra A y luego bajará a la siguiente línea. La instrucción de impresión ("A", end = "") mostrará la letra A sin moverse a la línea siguiente, haciendo que la siguiente instrucción de impresión muestre su resultado en la misma línea que la letra A
 
 [Ejercicio 74](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio74.py)
