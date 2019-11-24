@@ -748,3 +748,75 @@ Después de haber mostrado 100 enteros, su programa debería mostrar el valor m�
 Cree un programa que use el generador de números aleatorios de Python para simular lanzar una moneda varias veces. La moneda simulada debe ser justa, lo que significa que la probabilidad de sol es igual a la probabilidad de cruz. Su programa debe voltear monedas simuladas hasta que ocurran 3 sol consecutivas de 3 cruz consecutivas. Muestre una S cada vez que el resultado sea sol, y una C cada vez que el resultado sea cruz, con todos los resultados mostrados en la misma línea. Luego muestre el número de vueltas necesarias para alcanzar 3 vueltas consecutivas con el mismo resultado. Cuando se ejecuta su programa, debe realizar la simulación 10 veces e informar el número promedio de vueltas necesarias.
 
 [Ejercicio 80](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio80.py)
+
+# Unidad 4
+# Funciones
+Las funciones ayudan al programador a partir un problema en piezas que pueden ser reusadas. También ayuda al programador a concentrarse en solo una parte del problema. Como resultado el escribir funciones es una parte importante del desarrollo de programas grandes.
+Para definir una función se utiliza la palabra reservada “def” seguido del nombre de la función y sus argumentos separados por comas.
+El cuerpo de la función lleva una identacion y generalmente una función siempre devuelve un resultado usando la palabra reservada        'return' 
+  Ejemplo 
+   def nombre de la función (argunento1, argumento 2…)
+       cuerpo de la función
+   Return resultado
+
+
+# Programación orientada a objetos
+Paradigmas de programación
+Un paradigma de programación es el resultado de un proceso social en el cual un gripo de personas desarrollan nuevas ideas y crea principios y prácticas alrededor de estas ideas. resumiendo, un paradigma es una metodología de trabajo en cuanto a programación se trata de un enfoque concreto de desarrollar y estructurar el desarrollo de programas.
+
+Hasta el momento, el trabajo que se a realizado a obedecido al paradigma de programación estructurada, en el que un programa se ejecuta línea tras línea.
+Sin embargo, existe otra forma de trabajo llamada programación orientada a objetos el cual es la forma de trabajo más popular en la actualidad y se fundamenta con datos y funciones que generan nuevos tipos de datos llamados clases. A cada variable de una clase se le llama objeto UML.
+
+## ATRIBUTOS
+Color: (int,int,int)
+Tiene_quemacoso (bool)
+No_puertas (int)
+Marca (str)
+Cilindraje (int)
+Tipo(str)
+Consumo_gasolina (float)
+No_pasajeros(int)
+
+## FUNCIONES
+Avanzar (porc_acel)
+Frenar(porc_fren)
+Direccionar(angulo)
+Retroceder (porc_acel)
+Prender_luces()
+Apagar_luces()
+Encender ()
+Apagar ()
+
+ejemplo:
+
+|cuenta|
+|-|
+|usuario(str), No_cuenta(int), No_tarjeta(int),Saldo(float) |
+|Retirar(monto), Depocitar(monto),Consultar(),Transferir(monto, cuenta)|
+
+## Ejercicio 81
+Escribe una función que tome las longitudes de los dos lados más cortos de un triángulo rectángulo como sus parámetros. Devuelve la hipotenusa del triángulo, calculada usando el teorema de Pitágoras, como resultado de la función. Incluya un programa principal que lea las longitudes de los lados más cortos de un triángulo rectángulo del usuario, use su función para calcular la longitud de la hipotenusa y muestre el resultado.
+
+[Ejercicio 81](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio81.py)
+
+## Ejercicio 82
+En la ciudad de mexico la taria fe taxi uber consiste en un precio base de $44 pesoes mas $12 pesos por cada kilometro recorridoEscriba una funcion que tome la distancia viajada (en km).El cual debe ser el unico argumento y regrese la tarifa total como resultado.Escriba un programa principal que demuestre la funcion 
+
+[Ejercicio 82](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio82.py)
+
+## Ejercicio 83
+Amazon provee envio expres para muchos de sus prodcutos a un costo de $195 pesos por el primer productoy de $29.50 para cada producto subsecuenteEscriba una funcion que tome el numero de productos como su unico argumento.Regrese el costo de envio total como el resultado de la funcion.Incluya un programa principal que lea el numero de productos comprados por el usuario y que desplieje el costo total de envio.
+
+[Ejercicio 83](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio83.py)
+
+## Ejercicio 84
+Escriba una función que tome tres números como parámetros y devuelva el valor medio de esos parámetros como resultado. Incluya un programa principal que lea tres valores del usuario y muestre su mediana.
+Sugerencia: el valor medio es el medio de los tres valores cuando se ordenan en orden ascendente. Se puede encontrar usando declaraciones if, o con un poco de creatividad matemática.
+
+[Ejercicio 84](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio84.py)
+
+## Ejercicio 85
+Las palabras como primero, segundo y tercero se denominan números ordinales. En este ejercicio, escribirá una función que toma un número entero como su único parámetro y devuelve una cadena que contiene el número ordinal inglés apropiado como único resultado. Su función debe manejar los enteros entre 1 y 12 (inclusive). Debería devolver una cadena vacía si se proporciona un valor fuera de este rango como parámetro. Incluya un programa principal que demuestre su función mostrando cada número entero del 1 al 12 y su número ordinal. Su programa principal solo debe ejecutarse cuando su archivo no se haya importado a otro programa.
+
+[Ejercicio 85](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio85.py)
+
