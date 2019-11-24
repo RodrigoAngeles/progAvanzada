@@ -660,6 +660,8 @@ para conocer sus planes si el mensaje se deslizaba a sus manos. Como resultado, 
 La idea detrás de este cifrado es simple (y como resultado, no proporciona protección contra las técnicas modernas de descifrado de código). Cada letra en el mensaje original se desplaza en 3 lugares. Como resultado, A se convierte en D, B se convierte en E, C se convierte en F, D se convierte en G, etc. Las últimas tres letras del alfabeto se envuelven al principio: X se convierte en A, Y se convierte en B y Z se convierte en C. el cifrado no modifica los caracteres de las letras.
 Escriba un programa que implemente un cifrado César. Permita que el usuario suministre el mensaje y la cantidad de turno, y luego muestre el mensaje desplazado. Asegúrese de que su programa codifique letras mayúsculas y minúsculas. Su programa también debe admitir valores de desplazamiento negativos para que pueda usarse tanto para codificar mensajes como para decodificar mensajes.
 
+[Ejercicio 70](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio70.py)
+
 ## Ejercicio 71
 Escriba un programa que implemente el método de Newton para calcular y mostrar la raíz cuadrada de un número ingresado por el usuario. El algoritmo para el método de Newton sigue:
 Leer x del usuario
@@ -668,10 +670,20 @@ Mientras que adivinar no es lo suficientemente bueno
 Actualizar conjetura para que sea el promedio de conjetura y x / conjetura
 Cuando se completa este algoritmo, supongo que contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre conjetura ∗ conjetura yx era menor o igual a 10−12.
 
+[Ejercicio 71](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio71.py)
 
 ## Ejercicio 72
-En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
+Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo, "anna", "civic", "level" y "hannah" son ejemplos de palabras palindrómicas. Escriba un programa que lea una cadena del usuario y use un bucle para determinar si es o no un palíndromo. Muestra el resultado, incluido un mensaje de salida significativo.
 
+[Ejercicio 72](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio72.py)
+
+## Ejercicio 73
+Existen numerosas frases que son palíndromos cuando se ignora el espacio. Los ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve notas", entre muchos otros. Extienda su solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cuerda es o no un palíndromo. Para un desafío adicional, extienda su solución para que también ignore los signos de puntuación y trate las letras mayúsculas y minúsculas como equivalentes.
+
+[Ejercicio 73](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio73.py)
+
+## Ejercicio 74
+En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
 
 | |1|2|3|4|5|6|7|8|9|10|
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -685,10 +697,53 @@ En este ejercicio, creará un programa que muestra una tabla de multiplicación 
 |8|8|16|24|32|40|48|56|64|72|80|
 |9|9|18|27|36|45|54|63|72|81|90|
 |10|10|20|30|40|50|60|70|80|90|100|
-
 Al completar este ejercicio, probablemente le sea útil poder imprimir un valor sin pasar a la siguiente línea. Esto se puede lograr agregando end = " " como el último parámetro a su declaración de impresión. Por ejemplo, print ("A") mostrará la letra A y luego bajará a la siguiente línea. La instrucción de impresión ("A", end = "") mostrará la letra A sin moverse a la línea siguiente, haciendo que la siguiente instrucción de impresión muestre su resultado en la misma línea que la letra A
 
+[Ejercicio 74](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio74.py)
 
+## Ejercicio 75
+El máximo común divisor de dos enteros positivos, n y m, es el número más grande, d, que se divide uniformemente en n y m. Existen varios algoritmos que pueden usarse para resolver este problema, que incluyen:
+ Inicialice d al menor de myn.
+while d no divide equitativamente m o d no divide equitativamente n do
+Disminuya el valor de d en 1
+Informe d como el máximo divisor común de n y m
+Escriba un programa que lea dos enteros positivos del usuario y use este algoritmo para determinar e informar su máximo divisor común.
 
+[Ejercicio 75](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio75.py)
 
+## Ejercicio 76
+La factorización prima de un número entero, n, se puede determinar utilizando los siguientes pasos: Inicializar factor a dos
+ while el factor es menor o igual que n do
+ if n es divisible uniformemente por factor, then
+ Concluir que el factor es un factor de n
+ Divide n por factor usando la división entera
+ else
+ Aumenta el factor en uno
+Escriba un programa que lea un número entero del usuario. Si el valor ingresado por el usuario es menor que 2, entonces su programa debería mostrar un mensaje de error apropiado.
+De lo contrario, su programa debería mostrar los números primos que se pueden multiplicar para calcular n, con un factor que aparece en cada línea.
 
+[Ejercicio 76](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio76.py)
+
+## Ejercicio 77
+Escriba un programa que convierta un número binario (base 2) a decimal (base 10). Su programa debe comenzar leyendo el número binario del usuario como una cadena. Luego, debe calcular el número decimal equivalente procesando cada dígito en el número binario. Finalmente, su programa debe mostrar el número decimal equivalente con un mensaje apropiado.
+
+[Ejercicio 77](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio77.py)
+
+## Ejercicio 78
+Escriba un programa que convierta un número decimal (base 10) a binario (base 2). Lea el número decimal del usuario como un entero y luego use el algoritmo de división que se muestra a continuación para realizar la conversión. Cuando se completa el algoritmo, el resultado contiene la representación binaria del número. Muestra el resultado, junto con un mensaje apropiado.
+
+[Ejercicio 78](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio78.py)
+
+## Ejercicio 79
+Este ejercicio examina el proceso de identificación del valor máximo en una colección de enteros. Cada uno de los enteros se seleccionará aleatoriamente de los números entre 1 y 100. La colección de enteros puede contener valores duplicados, y algunos de los enteros entre 1 y 100 pueden no estar presentes.
+Tómese un momento y piense cómo manejaría este problema en papel. Muchas personas verifican cada número entero en secuencia y se preguntan si el número que están considerando actualmente es mayor que el número más grande que han visto anteriormente. Si es así, se olvidan del número máximo anterior y recuerdan el número actual como el nuevo número máximo. Este es un enfoque razonable y dará como resultado la respuesta correcta cuando el proceso se realice con cuidado. Si realizara esta tarea, ¿cuántas veces esperaría necesitar actualizar el valor máximo y recordar un nuevo número?
+Si bien podemos responder a la pregunta planteada al final del párrafo anterior utilizando la teoría de la probabilidad, vamos a explorarla simulando la situación. Cree un programa que comience seleccionando un número entero aleatorio entre 1 y 100. Guarde este número entero como el número máximo encontrado hasta ahora. Después de que se haya seleccionado el entero inicial, genere 99 enteros aleatorios adicionales entre 1 y 100. Verifique cada entero tal como se genera para ver si es mayor que el número máximo encontrado hasta ahora. Si es así, su programa debería actualizar el número máximo encontrado y contar el hecho de que realizó una actualización. Muestra cada número entero después de generarlo. Incluya una notación con esos enteros que representan un nuevo máximo.
+Después de haber mostrado 100 enteros, su programa debería mostrar el valor máximo encontrado, junto con la cantidad de veces que el valor máximo se actualizó durante el proceso. La salida parcial para el programa se muestra a continuación, con ... representando los enteros restantes que mostrará su programa. Ejecute su programa varias veces. ¿Es la cantidad de actualizaciones realizadas en el valor máximo lo que esperaba?
+
+[Ejercicio 79](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio79.py)
+
+## Ejercicio 80
+¿Cuál es el número mínimo de veces que tiene que lanzar una moneda antes de poder tener tres lanzamientos consecutivos que den como resultado el mismo resultado (o los tres son sol o los tres son cruz)? ¿Cuál es el número máximo de volteos que podrían ser necesarios? ¿Cuántas vueltas se necesitan en promedio? En este ejercicio exploraremos estas preguntas creando un programa que simule varias series de lanzamientos de monedas.
+Cree un programa que use el generador de números aleatorios de Python para simular lanzar una moneda varias veces. La moneda simulada debe ser justa, lo que significa que la probabilidad de sol es igual a la probabilidad de cruz. Su programa debe voltear monedas simuladas hasta que ocurran 3 sol consecutivas de 3 cruz consecutivas. Muestre una S cada vez que el resultado sea sol, y una C cada vez que el resultado sea cruz, con todos los resultados mostrados en la misma línea. Luego muestre el número de vueltas necesarias para alcanzar 3 vueltas consecutivas con el mismo resultado. Cuando se ejecuta su programa, debe realizar la simulación 10 veces e informar el número promedio de vueltas necesarias.
+
+[Ejercicio 80](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio80.py)
