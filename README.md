@@ -861,3 +861,44 @@ En este ejercicio, escribirá una función llamada isInteger que determina si lo
 Escriba un programa principal que lea una cadena del usuario e informe si representa o no un número entero. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
 
 [Ejercicio 90](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio90.py)
+
+## Ejercicio 91
+Escriba una función llamada precedencia que devuelva un número entero que represente la precedencia de un operador matemático. Una cadena que contiene el operador se pasará a la función como su único parámetro. Su función debe devolver 1 para + y -, 2 para * y /, y 3 para ˆ. Si la cadena que se pasa a la función no es uno de estos operadores, la función debería devolver -1. Incluya un programa principal que lea un operador del usuario y muestre la precedencia del operador o un mensaje de error que indique que la entrada no era un operador. Su programa principal solo debe ejecutarse cuando el archivo que contiene su solución no se ha importado a otro programa
+
+[Ejercicio 91](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio91.py)
+
+## Ejercicio 92
+Un número primo es un número entero mayor que 1 que solo es divisible por uno y por sí mismo. Escriba una función que determine si su parámetro es primo o no, devolviendo True si lo es y False en caso contrario. Escriba un programa principal que lea un número entero del usuario y muestre un mensaje que indique si es primo o no. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
+
+[Ejercicio 92](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio92.py)
+
+## Ejercicio 93
+En este ejercicio creará una función llamada nextPrime que encuentra y devuelve el primer número primo mayor que algún entero, n. El valor de n se pasará a la función como su único parámetro. Incluya un programa principal que lea un número entero del usuario y muestre el primer número primo mayor que el valor ingresado. Importe y use su solución para el Ejercicio 92 mientras completa este ejercicio.
+
+[Ejercicio 93](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio93.py)
+
+## Ejercicio 94
+Escribe una función que genere una contraseña aleatoria. La contraseña debe tener una longitud aleatoria de entre 7 y 10 caracteres. Cada personaje debe seleccionarse al azar de las posiciones 33 a 126 en la tabla ASCII. Su función no tomará ningún parámetro. Devolverá la contraseña generada aleatoriamente como su único resultado. Muestra la contraseña generada aleatoriamente en el programa principal de tu archivo. Su programa principal solo debe ejecutarse cuando su solución no se haya importado a otro archivo.
+
+[Ejercicio 94](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio94.py)
+
+## Ejercicio 95
+En una jurisdicción particular, las matrículas más antiguas consisten en tres letras seguidas de tres números. Cuando se utilizaron todas las placas que siguen ese patrón, el formato se cambió a cuatro números seguidos de tres letras.
+Escriba una función que genere una matrícula aleatoria. Su función debe tener una probabilidad aproximadamente igual de generar una secuencia de caracteres para una placa anterior o una nueva. Escriba un programa principal que llame a su función y muestre la placa generada al azar.
+
+[Ejercicio 95](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio95.py)
+
+## Ejercicio 96
+En este ejercicio escribirá una función que determina si una contraseña es buena o no. Definiremos una buena contraseña para que tenga una longitud de al menos 8 caracteres y contenga al menos una letra mayúscula, al menos una letra minúscula y al menos un número. Su función debe devolver verdadero si la contraseña que se le pasó, ya que su único parámetro es bueno. De lo contrario, debería devolver falso. Incluya un programa principal que lea una contraseña del usuario e informe si es buena o no. Asegúrese de que su programa principal solo se ejecute cuando su solución no se haya importado a otro archivo.
+
+[Ejercicio 96](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio96.py)
+
+## Ejercicio 97
+Usando sus soluciones para los Ejercicios 94 y 96, escriba un programa que genere una buena contraseña aleatoria y la muestre. Cuente y muestre el número de intentos necesarios antes de que se generara una buena contraseña. Estructura tu solución para que importe las funciones que escribiste anteriormente y luego las llame desde una función llamada main en el archivo que crees para este ejercicio.
+
+[Ejercicio 97](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio97.py)
+
+## Ejercicio 98
+Escriba dos funciones, hex2int e int2hex, que conviertan entre dígitos hexadecimales (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F) y enteros de base 10 . La función hex2int es responsable de convertir una cadena que contiene un solo dígito hexadecimal en un entero de base 10, mientras que la función int2hex es responsable de convertir un entero entre 0 y 15 en un solo dígito hexadecimal. Cada función tomará el valor para convertir como su único parámetro y devolverá el valor convertido como el único resultado de la función. Asegúrese de que la función hex2int funcione correctamente para letras mayúsculas y minúsculas. Sus funciones deberían finalizar el programa con un mensaje de error significativo si se proporciona un parámetro no válido.
+
+[Ejercicio 98](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio98.py)
