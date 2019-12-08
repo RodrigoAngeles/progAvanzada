@@ -902,3 +902,13 @@ Usando sus soluciones para los Ejercicios 94 y 96, escriba un programa que gener
 Escriba dos funciones, hex2int e int2hex, que conviertan entre dígitos hexadecimales (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F) y enteros de base 10 . La función hex2int es responsable de convertir una cadena que contiene un solo dígito hexadecimal en un entero de base 10, mientras que la función int2hex es responsable de convertir un entero entre 0 y 15 en un solo dígito hexadecimal. Cada función tomará el valor para convertir como su único parámetro y devolverá el valor convertido como el único resultado de la función. Asegúrese de que la función hex2int funcione correctamente para letras mayúsculas y minúsculas. Sus funciones deberían finalizar el programa con un mensaje de error significativo si se proporciona un parámetro no válido.
 
 [Ejercicio 98](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio98.py)
+
+## Ejercicio 99
+Escriba un programa que permita al usuario convertir un número de una base a otra. Su programa debe admitir bases entre 2 y 16 tanto para el número de entrada como para el número de resultado. Si el usuario elige una base fuera de este rango, se debe mostrar un mensaje de error apropiado y el programa debe salir. Divida su programa en varias funciones, incluida una función que convierte de una base arbitraria a una base 10, una función que convierte de una base 10 a una base arbitraria y un programa principal que lee las bases y el número de entrada del usuario. Puede encontrar sus soluciones a los ejercicios 77, 78 y 98 útiles al completar este ejercicio.
+
+[Ejercicio 99](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio99.py)
+
+## Ejercicio 100
+Escriba una función que determine cuántos días hay en un mes en particular. Su función tomará dos parámetros: el mes como un número entero entre 1 y 12, y el año como un número entero de cuatro dígitos. Asegúrese de que su función informa el número correcto de días en febrero para los años bisiestos. Incluya un programa principal que lea un mes y un año del usuario y muestre la cantidad de días en ese mes. Puede encontrar útil su solución para el ejercicio 57 al resolver este problema
+
+[Ejercicio 100](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio100.py)
