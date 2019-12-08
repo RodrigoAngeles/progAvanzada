@@ -820,3 +820,43 @@ Las palabras como primero, segundo y tercero se denominan números ordinales. En
 
 [Ejercicio 85](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio85.py)
 
+## Ejercicio 86
+Los doce días de Navidad es una canción repetitiva que describe una lista cada vez más larga de regalos enviados al verdadero amor de cada uno de los 12 días. Se envía un único regalo el primer día. Se agrega un nuevo regalo a la colección cada día adicional, y luego se envía la colección completa. Los primeros tres versos de la canción se muestran a continuación.
+Las letras completas están disponibles en internet.
+En el primer día de navidad
+mi verdadero amor me envió:
+Una perdiz en un peral.
+En el segundo día de navidad
+mi verdadero amor me envió:
+Dos tórtolas,
+Y una perdiz en un peral.
+En el tercer día de navidad
+mi verdadero amor me envió:
+Tres gallinas francesas
+Dos tórtolas,
+Y una perdiz en un peral.
+Su tarea es escribir un programa que muestre la letra completa de Los doce días de Navidad. Escriba una función que tome el número de verso como su único parámetro y muestre el verso especificado de la canción. Luego llame a esa función 12 veces con números enteros que aumentan de 1 a 12.
+Cada elemento que se envía al destinatario en la canción solo debe aparecer una vez en su programa, con la posible excepción de la perdiz. Puede aparecer dos veces si eso le ayuda a manejar la diferencia entre “Una perdiz en un peral” en el primer verso y “Y una perdiz en un peral” en los versos posteriores. Importe su solución al Ejercicio 85 para ayudarlo a completar este ejercicio.
+
+[Ejercicio 86](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio86.py)
+
+## Ejercicio 87
+Escriba una función que tome una cadena de caracteres como su primer parámetro, y el ancho de la terminal en caracteres como su segundo parámetro. Su función debe devolver una nueva cadena que consta de la cadena original y el número correcto de espacios iniciales para que la cadena original aparezca centrada dentro del ancho proporcionado cuando se imprima. No agregue ningún carácter al final de la cadena. Incluya un programa principal que demuestre su función.
+
+[Ejercicio 87](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio87.py)
+
+## Ejercicio 88
+Si tiene 3 pajitas, posiblemente de diferentes longitudes, puede o no ser posible colocarlas para que formen un triángulo cuando sus extremos se toquen. Por ejemplo, si todas las pajitas tienen una longitud de 6 pulgadas. entonces uno puede construir fácilmente un triángulo equilátero con ellos. Sin embargo, si un popote es de 6 pulgadas. largo, mientras que los otros dos son cada uno de solo 2 pulgadas. largo, entonces no se puede formar un triángulo. En general, si una longitud es mayor o igual que la suma de las otras dos, las longitudes no se pueden usar para formar un triángulo. De lo contrario, pueden formar un triángulo.
+Escribe una función que determine si tres longitudes pueden o no formar un triángulo. La función tomará 3 parámetros y devolverá un resultado booleano. Además, escriba un programa que lea 3 longitudes del usuario y demuestre el comportamiento de esta función.
+
+[Ejercicio 88](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio88.py)
+
+## Ejercicio 89 
+Muchas personas no usan letras mayúsculas correctamente, especialmente cuando escriben en dispositivos pequeños como teléfonos inteligentes. En este ejercicio, escribirá una función que capitaliza los caracteres apropiados en una cadena. Una "i" minúscula debe reemplazarse por una "I" mayúscula si está precedida y seguida de un espacio. El primer carácter de la cadena también debe estar en mayúscula, así como el primer carácter sin espacio después de un ".", "!" O "?". Por ejemplo, si la función se proporciona con la cadena "¿a qué hora tengo que estar allí? ¿Cuál es la dirección? ", entonces debería devolver la cadena" ¿A qué hora tengo que estar allí? ¿Cuál es la dirección?". Incluya un programa principal que lea una cadena del usuario, la capitalice utilizando su función y muestre el resultado.
+
+[Ejercicio 89](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio89.py)
+
+## Ejercicio 90
+En este ejercicio, escribirá una función llamada isInteger que determina si los caracteres en una cadena representan un número entero válido. Al determinar si una cadena representa un número entero, debe ignorar cualquier espacio en blanco inicial o final. Una vez que se ignora este espacio en blanco, una cadena representa un número entero si su longitud es al menos 1 y solo contiene dígitos, o si su primer carácter es + o - y el primer carácter es seguido por uno o más caracteres, todos los cuales Son dígitos.
+Escriba un programa principal que lea una cadena del usuario e informe si representa o no un número entero. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene su solución se importa a otro programa.
+[Ejercicio 90](https://github.com/RodrigoAngeles/progAvanzada/blob/master/ejercicio90.py)
